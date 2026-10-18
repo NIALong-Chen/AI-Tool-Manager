@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "assemblyVersion": "1.0.0.0",
+  "date": "2026-10-18",
+  "environment": "Windows 11; Windows PowerShell 5.1; system .NET Framework",
+  "build": "passed",
+  "scannerTests": {
+    "passed": 17,
+    "total": 17
+  },
+  "nativeTests": {
+    "passed": 16,
+    "checks": [
+      "快捷方式创建逻辑在隔离目录实际运行",
+      "自动更新设置真实保存",
+      "自选目录保存并可读取",
+      "真实隔离文件被扫描并分类",
+      "桌面宽度下使用三列卡片",
+      "搜索筛选",
+      "整张卡片进入独立详情页",
+      "详情来自本地文档",
+      "本地位置标签",
+      "返回保留搜索状态",
+      "手动刷新发现新增文件",
+      "最近变化记录新增",
+      "FileSystemWatcher 真实事件触发自动更新",
+      "文档变化被重新读取",
+      "外部删除后清单更新",
+      "扫描没有删除其他文件"
+    ]
+  },
+  "standaloneExecutable": {
+    "passed": true,
+    "sourceDirectoryAbsent": true
+  },
+  "executableSha256": "5bd9ae965f78cfa1e3692b28e3e7b064c99ddbacf05d743c653fed750c7a35ff",
+  "privacy": "Only generated fixture data is used for the repository image. No local inventory or personal configuration is included.",
+  "notVerified": [
+    "Windows 10 on a separate device",
+    "Remote GitHub repository creation and upload",
+    "Remote CI execution"
+  ]
+}

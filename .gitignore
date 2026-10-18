@@ -1,0 +1,14 @@
+# Local app settings and generated test files
+Data/
+TestData/
+work/
+bin/
+obj/
+*.exe
+*.zip
+*.pdb
+*.tmp
+*.log
+*.user
+.vs/
+releases/
